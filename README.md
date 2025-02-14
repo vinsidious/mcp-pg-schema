@@ -1,4 +1,5 @@
 # PostgreSQL
+[![smithery badge](https://smithery.ai/badge/@vinsidious/mcp-pg-schema)](https://smithery.ai/protocol_exists/@vinsidious/mcp-pg-schema)
 
 A Model Context Protocol server that provides read-only access to PostgreSQL databases. This server enables LLMs to inspect database schemas and execute read-only queries.
 
@@ -23,6 +24,14 @@ The server provides schema information for each table in the database:
 ## Usage with Claude Desktop
 
 To use this server with the Claude Desktop app, add the following configuration to the "mcpServers" section of your `claude_desktop_config.json`:
+
+### Installing via Smithery
+
+To install PostgreSQL Read-Only Server for Claude Desktop automatically via [Smithery](https://smithery.ai/protocol_exists/@vinsidious/mcp-pg-schema):
+
+```bash
+npx -y @smithery/cli install @vinsidious/mcp-pg-schema --client claude
+```
 
 ### Docker
 
