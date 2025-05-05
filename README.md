@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/vinsidious-mcp-pg-schema-badge.png)](https://mseep.ai/app/vinsidious-mcp-pg-schema)
+
 # PostgreSQL
 
 A Model Context Protocol server that provides read-only access to PostgreSQL databases. This server enables LLMs to inspect database schemas and execute read-only queries.
